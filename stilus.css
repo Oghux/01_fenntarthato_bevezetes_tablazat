@@ -1,0 +1,43 @@
+body{
+  background-color: #f8faf3;
+}
+
+
+h1{
+    font-family: sans-serif;
+}
+
+p{
+    color: grey;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th{
+    background-color: #145c4e;
+    color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #f8faf3;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+td:first-child{
+    color:#145c4e
+}
+
+td{
+    color: grey;
+}
+
+span{
+    font-size: 10px;
+    color: #58716a;
+}
