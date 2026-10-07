@@ -1,3 +1,8 @@
+*{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
 body{
   background-color: #f8faf3;
 }
@@ -5,10 +10,6 @@ body{
 
 h1{
     font-family: sans-serif;
-}
-
-p{
-    color: grey;
 }
 
 table, th, td {
@@ -37,7 +38,47 @@ td{
     color: grey;
 }
 
+article{
+  color: grey;
+}
+
 span{
-    font-size: 10px;
-    color: #58716a;
+  font-size: 10px;
+  color: #58716a;
+}
+
+.focim{
+  color: white;
+  background-color: #145c4e;
+  border-radius: 5px;
+  padding: 50px;
+
+}
+
+.masodcim{
+  color: #18352f;
+}
+
+.szoveg{
+  color: #c8e67a;
+}
+
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #145c4e;
+}
+
+div{
+  background-color: white;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  section{
+    grid-template-columns: 1fr;
+  }
 }
